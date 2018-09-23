@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+
+
+body{
+    background-color: black
+}
+label {display: block;}
+input, button {padding: 10px;}
+input {width: 50%;}
+.progress{
+    height: 50px;
+    background-color: #383838;
+    position: relative;
+}
+.progress .progress-bar{
+background-image: url(passei!.png);
+    position: absolute;
+    height: 1000%;
+    background-color: #383838;
+}
+
+@keyframes progress-animation{
+    0% { width: 0%; }
+
+    100% {width: 100%}
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 110pt;
+    text-align: center
+}
+
+h2 {
+    text-align: center
+}
+
+h3 {
+    text-align: center
+}
+
+
+
+    
